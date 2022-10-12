@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contacts</title>
+	<link rel = "icon" href="title-logo.jpg" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="css.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200;500&display=swap" rel="stylesheet">
+</head>
+<body>
+<div>
+	<header>
+		<div class="header">
+			<a class="logo" class="logo-edit" href="index.html">Samuel's Website</a>
+			<div class="header-right">
+				<div class="container">
+					<button>
+						<span>
+							<a href="about.html">About</a>
+						</span>
+					</button>
+					<button>
+						<span>
+							<a href="projects.html">Projects</a>
+						</span>
+					</button>
+					<button>
+						<span>
+							<a class="active" href="contacts.html">Contact</a>	
+						</span>
+					</button>
+				</div>
+			</div> 
+		</div>
+	</header>
+	<main>
+		<div class="contacts">
+			<p>Contact me</p>
+		</div>
+		<div class="contact-box">
+			<form action="https://formsubmit.co/spiatro21@students.lcc.lt" method="POST">
+				<input type="text" name="name" class="input-field" placeholder="Your name" required>
+				<input type="email" name ="email" class="input-field" placeholder="Your Email" required>
+				<input type="text" class="input-field" placeholder="Subject">
+				<input type="hidden" name="_next" value="https://sapiatrovich.github.io/thanks-you.html">
+				<input type="hidden" name="_captcha" value="false">
+				<textarea type="text" class="input-field textarea-field" placeholder="Your message" required>
+				</textarea>
+				<!--<a href="thank-you.html">
+					<button type="submit" class="btn">
+						Send Message
+					</button>
+				</a>-->
+			</form>
+		</div>
+	</main>
+	<footer>
+		<div class="footer">
+			<div class=footer-two-column>
+				<div class="footer1">
+					<p>spiatro21@students.lcc.lt</p>
+					<p>Kretingos 36, Klaipeda, Lithuania</p>					
+				</div>
+				<div>
+					<a href="https://www.facebook.com/samuel.piatrovich" class="fa fa-facebook"></a>
+					<a href="https://www.instagram.com/sapiatrovich/" class="fa fa-instagram"></a>
+					<a href="https://www.youtube.com/channel/UC5DXjAgYjhus1VReOFaAy6Q" class="fa fa-youtube"></a>
+				</div>
+			</div>	
+		</div>
+	</footer>
+</div>	
+</body>
+</html>
