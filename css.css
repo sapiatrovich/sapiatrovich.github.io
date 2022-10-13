@@ -120,6 +120,7 @@ p.description span {
 	font-size: 20px;
 	color: black;
 	text-align: center;
+	text-decoration: none;
 }
 .more-about a:hover {
 	color: #DB0008;
