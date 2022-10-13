@@ -76,6 +76,9 @@ p.name {
 	font-family: 'Montserrat Alternates', TimesNewRoman;
 	font-weight: 500;
 }
+.links {
+	text-decoration: none;
+}
 p.description {
 	font-size: 20px;
 	margin-left: 0px;
