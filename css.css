@@ -241,10 +241,12 @@ footer p {
 	cursor: pointer;
 }
 .mySlides {
-  	display: none;
+  display: none;
+  text-align: center;
+  background-color: #000;
 }
 .mySlides img {
-	max-height: 700px;
+	height: 700px;
 	width: auto;  
 }
 .prev, .next {
